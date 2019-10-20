@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin:  0px;
+}
+
+body{
+    background-color: yellow;
+    line-height: 1em;
+    border: 100px;
+}
+.wrapper{
+    margin: 10px 100px-;
+}
+.header{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 8px;
+}
+.icon-logo{
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+}
+.navbar{
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: blue;
+    text-align: left;
+    padding: 12px 11px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: orange;
+}
+img{
+    padding: 1px;
+}
+.image {display:flex;
+flex: 30%;
+padding:5px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    
+    margin: 10px;
+}
+#address{
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.footer{
+    background-color: yellow;
+    padding: 2px;
+    margin: 2px;
+}
+.footer-image{
+    text-align: center;
+    padding: 1px;
+}
+.copyright{
+    text-align: center;
+    padding: 1px;
+}
+.Address{
+    text-align: center;
+    padding: 1px;
+}
